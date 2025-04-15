@@ -44,7 +44,7 @@ st.sidebar.header("Filtros")
 # 2. Navega hasta el archivo .xlsx.
 # 3. Haz clic en el botón "Raw".
 # 4. Copia la URL de esa página "Raw".
-github_raw_url = "https://github.com/OscarIvaVP/dashb/blob/main/datos_2006_2023.xlsx" # <--- ¡REEMPLAZA ESTO!
+github_raw_url = "https://raw.githubusercontent.com/OscarIvaVP/dashb/main/datos.xlsx" # <--- ¡REEMPLAZA ESTO!
 
 # Cargar los datos usando la función
 df = load_data(github_raw_url)
