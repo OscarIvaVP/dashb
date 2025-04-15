@@ -20,7 +20,7 @@ def load_data(url):
     """Carga los datos desde una URL (GitHub Raw Link)."""
     try:
         # Asegúrate de que la URL apunte al archivo "raw" en GitHub
-        # Ejemplo: https://raw.githubusercontent.com/tu_usuario/tu_repo/main/datos_2006_2023.xlsx
+        # Ejemplo: https://raw.githubusercontent.com/tu_usuario/tu_repo/main/datos.xlsx
         df = pd.read_excel(url)
         # Limpieza básica de nombres de columna (opcional pero útil)
         df.columns = df.columns.str.strip() # Quita espacios al inicio/final
